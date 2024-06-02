@@ -1,0 +1,12 @@
+Commands to push your code on github:
+git status ==> (Apne github ka status check krte hai iske through)
+git add . ==> (Adding our code to github)
+git commit -m "initial commit" ==> (Message)
+git push -u origin main ==> (Apne github ka status check krte    hai iske through)
+
+//For clone
+git clone yourRepoUrl
+
+//If github not conf   
+git config --global user.email a@g.com
+git config --global user.name AbdullahAnsariGit
