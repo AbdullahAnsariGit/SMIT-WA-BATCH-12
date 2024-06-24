@@ -1,0 +1,66 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  margin: 30px;
+}
+/* p{
+    color: aqua;
+}
+.mypara{
+    color: aqua;
+
+}
+#myHeading{
+    color: blue;
+}
+h1+p{
+    color: red;
+} */
+
+/* h1~p {
+    color: aqua;
+} */
+/* 
+.box{
+    width: 300px;
+    background-color:beige;
+    border: 1px solid #000;
+    padding: inherit;
+} */
+/* .main{
+    padding: 60px;
+  border: 1px solid #665544;
+
+
+} */
+.page {
+  border: 1px solid #665544;
+  background-color: #efefef;
+
+  /* padding: inherit; */
+}
+
+.box1 {
+    /* Color Name */
+  /* background-color: red; */
+
+  /* Hex Code */
+  /* background-color: #f85606;
+  background-color: hsl(360,50%,50%); */
+  /* background-image: linear-gradient(brown, orange); */
+font-size: 30px;
+font-weight: bold;
+    /* RGB Code */
+    /* background-color:rgb(248, 86, 6, 0.4); */
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(42,104,245,1) 35%, rgba(38,54,172,1) 100%);
+
+  padding: 30px;
+  width: 300px;
+  /* opacity: 0.5; */
+  /* padding: 20px 20px 10px 50px; */
+  /* margin: inherit; */
+}
+
