@@ -1,0 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Fixed */
+.container {
+  max-width: 80%;
+  margin: 0px auto;
+  background-color: beige;
+  height: 600px;
+}

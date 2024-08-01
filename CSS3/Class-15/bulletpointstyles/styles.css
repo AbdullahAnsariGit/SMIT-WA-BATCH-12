@@ -1,0 +1,36 @@
+/* ref */
+/* https://www.sololearn.com/en/Discuss/387548/liststyleimagethe-image-size */
+/* ol li::marker {
+    font-size:1rem;
+} */
+
+ul {
+  width: 150px;
+  /* background-color: red; */
+}
+li::before{
+    content: '';   
+    display: inline-block;   
+    height: 10px;   
+    width: 10px;  
+    background-size: 10px;   
+    background-image: url('../fb.png');   
+    background-repeat:no-repeat;   
+    margin-right: 10px;
+    background-position: center center;
+    vertical-align: middle;
+}
+li {
+    
+/* background-size: 10px; */
+  /* margin: 10px; */
+  /* background-color: green; */
+  /* list-style-image: url('../fb.png'); */
+  list-style-type: none;
+}
+/* ul.illuminations {
+  list-style-position: inside;
+} */
+ul.season {
+  /* list-style-position: inside; */
+}

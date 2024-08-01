@@ -1,0 +1,39 @@
+table {
+  /* width: 300px; */
+  /* border-collapse: collapse; */
+  /* padding:10px;
+    text-transform:capitalize;
+    letter-spacing:6px;
+    text-align: center;
+    empty-cells:show */
+}
+table tr td {
+  /* padding: 10px; */
+}
+
+/* table:hover{
+    background-color: aqua;
+    border-top: 10px dashed red;
+    border-bottom: 10px solid blue;
+    border-left: 10px solid green;
+} */
+
+    /* td {
+    border: 1px solid black;
+    padding: 15px;
+    }
+    table.one {
+    empty-cells: show;
+    }
+    table.two {
+    empty-cells: hide;
+    } */
+
+
+    td,th{
+        border: 2px solid green;
+    }
+
+    table {
+        empty-cells: hide;
+    }

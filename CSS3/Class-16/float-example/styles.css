@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.heading{
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.container{
+    padding: 0 20px;
+}
+.para{
+    text-align: center;
+}
+
+
+.photo{
+    float: left;
+    
+}
+
+.para2{
+    clear: right;
+}
+
+.para1{
+    margin-left: 20px;
+}
+
+.right{
+    clear: both;
+}
+
+.photoRight{
+    float: right;
+}

@@ -1,0 +1,27 @@
+.left{
+    float: left;
+    background-color: red;
+   width: 200px;
+    /* height: 100px; */ 
+    /* overflow: auto; */
+}
+.right{
+    /* float: right; */
+    background-color: green;
+    /* width: 200px; */
+
+}
+
+.para{
+    clear: both;
+}
+
+
+.container{
+    background-color: yellow;
+    padding: 20px;
+    /* display: flow-root; */
+    /* overflow: auto; */
+    
+    
+}
