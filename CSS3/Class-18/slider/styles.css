@@ -1,0 +1,82 @@
+.sliderContainer {
+	position:relative;
+	width:80%;
+	height:100%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.sliderContainer img:first-child {
+	position:relative;
+	width:100%;
+	left:0%;
+	top:0;
+    background-color: red;
+}
+
+img {
+	position:absolute;
+	width:100%;
+	left:-100%;
+	top:0;
+}
+
+.nextCircle {
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	left:85%;
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	opacity:0.5;
+	background-color:black;
+	z-index:19;	
+}
+
+.next {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:white;
+	z-index:20;
+
+}
+
+.nextCircle:hover{
+	opacity:0.7;
+	cursor: pointer;
+}
+
+.fa.fa-arrow-right, .fa.fa-arrow-left {
+	font-size:30px;
+}
+
+.prevCircle {
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	right:85%;
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	opacity:0.5;
+	background-color:black;
+	z-index:19;	
+}
+
+.previous {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:white;
+	z-index:20;
+	
+}
+
+.prevCircle:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}

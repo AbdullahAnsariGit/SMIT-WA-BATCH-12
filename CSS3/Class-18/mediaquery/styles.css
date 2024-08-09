@@ -1,0 +1,32 @@
+
+
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+.container{
+background-color: beige;
+/* max-width: 1170px; */
+max-width: 90%;
+
+height: 100vh;
+margin: 0 auto;
+}
+
+.boxParent{
+    display: flex;
+    gap: 10px;
+}
+
+.boxChild{
+    border: 1px solid green;
+    padding: 10px;
+    /* min-width: 300px; */
+}
+
+@media screen and (max-width:500px) {
+    .boxParent{
+        flex-direction: column;
+    }
+}
