@@ -1,0 +1,56 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  animation-name: animatedbox2;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  /* ease - slow start, then fast, then end slowly
+  ease-in - slow start
+  ease-out - slow end
+  ease-in-out - slow start and end
+  linear - same speed from start to end */
+  /* animation-fill-mode: forwards; */
+  /* animation-direction: reverse; */
+  animation-iteration-count: infinite;
+}
+.box:hover {
+  animation-play-state: paused;
+}
+
+@keyframes animatedbox {
+  /* Initial state */
+  from {
+    transform: translateX(0px);
+  }
+  /* Final state */
+  to {
+    transform: translateX(600px);
+    background-color: brown;
+  }
+}
+
+@keyframes animatedbox2 {
+  0% {
+    transform: translateX(0px) translateY(0px);
+  }
+  25% {
+    transform: translateX(300px) translateY(0) rotate(90deg) scale(0.5);
+    background-color: cadetblue;
+  }
+  50% {
+    transform: translateY(300px) translateX(300px);
+    /* transform: translateX(300px); */
+    background-color: yellow;
+  }
+
+  75% {
+    transform: translateX(0px) translateY(300px);
+    background-color: orange;
+  }
+  100% {
+    /* transform: translateX(0px); */
+    transform: translateX(0px) translateY(0px);
+    background-color: blue;
+  }
+}
