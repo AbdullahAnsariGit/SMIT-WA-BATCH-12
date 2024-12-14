@@ -1,0 +1,13 @@
+/* .hidden {
+  display: none;
+} */
+
+.imageHeight {
+  height: 400px !important;
+  width: 400px !important;
+}
+
+.imageBorder {
+  border: 2px solid #000000;
+  border-radius: 30px;
+}

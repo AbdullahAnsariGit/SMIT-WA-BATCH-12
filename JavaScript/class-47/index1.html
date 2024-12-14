@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>My Page 2</h1>
+    <section id="para" style="margin-top: 200px;">
+        <h1>My Project</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sit, natus placeat unde reprehenderit
+            molestiae praesentium vel sunt consequatur eveniet, inventore veniam voluptates accusamus dolor dolore
+            assumenda quisquam hic atque.
+        </p>
+
+    </section>
+    <section id="portfolio" style="margin-top: 200px;">
+        <h1>My Portfolio</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sit, natus placeat unde reprehenderit
+            molestiae praesentium vel sunt consequatur eveniet, inventore veniam voluptates accusamus dolor dolore
+            assumenda quisquam hic atque.
+        </p>
+
+    </section>
+    <section id="contact" style="margin-top: 200px;">
+        <h1>My Contact</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sit, natus placeat unde reprehenderit
+            molestiae praesentium vel sunt consequatur eveniet, inventore veniam voluptates accusamus dolor dolore
+            assumenda quisquam hic atque.
+        </p>
+
+    </section>
+    <script>
+        var theDomain = window.location.hostname;
+        var whereWeAt = window.location.href;
+        var theAnchor = window.location.hash;
+
+        console.log('hostname', theDomain)
+        console.log('whereWeAt', whereWeAt)
+        console.log('theAnchor', theAnchor)
+        var getMyBtn1 = document.getElementById("myBtn2");
+        console.log('getMyBtn1', getMyBtn1);
+
+        getMyBtn1.addEventListener("click", function () {
+            window.location.href = "index.html";
+            // history.back()
+        });
+    </script>
+</body>
+
+</html>

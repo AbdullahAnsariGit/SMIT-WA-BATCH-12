@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#todoApp{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+
+}
+.inputField{
+/* padding: 10px 20px; */
+}
+#input{
+    padding: 10px 20px;
+}
+#AddtaskBtn{
+    padding: 10px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+}
+.output{
+    flex: 1;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* height: 200px; */
+}

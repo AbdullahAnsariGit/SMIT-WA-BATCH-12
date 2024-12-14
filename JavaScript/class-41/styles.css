@@ -1,0 +1,28 @@
+/* .abc {
+  color: yellow;
+}
+.special {
+  color: red;
+}
+.regular{
+    color: red;
+} */
+
+/* .para {
+  color: green;
+  font-size: 20px;
+}
+
+.newClass {
+  color: red;
+  font-size: 50px;
+} */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: black;
+  height: 100vh;
+}

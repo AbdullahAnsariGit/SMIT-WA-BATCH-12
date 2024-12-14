@@ -1,0 +1,13 @@
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+    transition-property: background-color;
+    /* transition-delay: 1s; */
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+
+}
+.box:hover{
+    background-color: red;
+}
