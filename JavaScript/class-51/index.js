@@ -129,8 +129,8 @@ person.greet(); // Output: Hello, my name is Sara.
 const key = "hobby";
 
 const personC = {
-  name: "Zain",
-  [key]: "Cricket", // Dynamic property name
+    name: "Zain",
+    [key]: "Cricket", // Dynamic property name
 };
 
 console.log(personC); // { name: "Zain", hobby: "Cricket" }
@@ -206,3 +206,78 @@ console.log(personC); // { name: "Zain", hobby: "Cricket" }
 
 // isArray(): Check karta hai agar variable array hai ya nahi.
 // Example: Array.isArray([1, 2, 3]) → true
+
+
+// Callback in Js
+
+// Defination:
+// callback ek function hai jo dusre function ko ek kaam khatam hone ke baad chalane ke liye diya jata hai.
+
+// Real life example:
+// Man lijiye aap kisi dost ko phone karte hain aur kehte hain:
+// "Mujhe tumhari help chahiye, kaam pura ho jaye to mujhe batana."
+
+// Yahaan:
+
+// 1- Aapka dost kaam karega (yeh main function hai).
+// 2- Jab kaam pura hoga, tab aapko batayega (yeh callback function hai).
+
+// // Example code:
+// function kaamPuraHua(message) {
+//     console.log("Callback function chal gaya: " + message);
+// }
+
+// function kaamKaro(callback) {
+//     console.log("Kaam shuru ho gaya...");
+//     setTimeout(() => {
+//         console.log("Kaam pura ho gaya!");
+//         callback("Yeh hai callback ka message.");
+//     }, 2000); // 2 second ka delay
+// }
+
+// // Callback function pass kiya
+// kaamKaro(kaamPuraHua);
+
+
+// Task: Countdown Timer with a Callback
+// Ek function banao jo countdown kare, jaise 5 se 0 tak numbers print kare.
+// Jab countdown khatam ho jaye, tab ek callback function ko call kare jo ek message display kare, jaise "Countdown Complete!".
+
+// Requirements:
+// Ek function ho countdown, jo ek number se countdown kare.
+// Ek callback function pass ho jo tab chale jab countdown khatam ho.
+// setTimeout ka use karo har number ke beech delay ke liye.
+
+
+// Output
+// 5
+// 4
+// 3
+// 2
+// 1
+// 0
+// Countdown Complete!
+
+
+
+
+
+// function countdown(start, callback) {
+//     function displayNumber(num) {
+//       if (num < 0) {
+//         callback(); // Jab countdown khatam ho jaye
+//         return;
+//       }
+//       console.log(num);
+//       setTimeout(() => displayNumber(num - 1), 1000); // 1 second delay
+//     }
+//     displayNumber(start);
+//   }
+  
+//   function onComplete() {
+//     console.log("Countdown Complete!");
+//   }
+  
+//   // Call the countdown function
+//   countdown(5, onComplete);
+  
