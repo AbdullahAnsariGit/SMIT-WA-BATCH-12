@@ -281,3 +281,114 @@ console.log(personC); // { name: "Zain", hobby: "Cricket" }
 //   // Call the countdown function
 //   countdown(5, onComplete);
   
+
+
+
+
+
+//Map in js
+
+// Example 1
+// const map = new Map();
+
+// Adding key-value pairs
+// map.set('name', 'Alice');
+// map.set('age', 25);
+// map.set('city', 'New York');
+
+// Accessing values using keys
+// console.log(map.get('name'));
+// console.log(map.get('age'));  
+
+// Checking if a key exists
+// console.log(map.has('city')); // Output: true
+// console.log(map.has('country')); // Output: false
+
+// Removing a key-value pair
+// map.delete('age');
+
+// Checking the size of the map
+// console.log(map.size); // 
+
+// Iterating over Map
+// map.forEach((value, key) => {
+//   console.log(`${key}: ${value}`);
+// });
+
+
+// Example 2
+// const map = new Map();
+
+// const obj1 = { id: 1 };
+// const obj2 = { id: 2 };
+
+// // Adding objects as keys
+// map.set(obj1, 'Object 1');
+// map.set(obj2, 'Object 2');
+
+// // Accessing values using objects as keys
+// console.log(map.get(obj1)); // Output: Object 1
+// console.log(map.get(obj2)); // Output: Object 2
+
+
+// Map ke Methods
+// .set(key, value)
+
+// Description: Key-value pair ko map mein add ya update karta hai.
+// Example: map.set('name', 'Alice')
+// .get(key)
+
+// Description: Kisi key ki corresponding value ko fetch karta hai.
+// Example: map.get('name') — returns 'Alice'
+// .has(key)
+
+// Description: Check karta hai ki specified key map mein exist karti hai ya nahi.
+// Example: map.has('name') — returns true
+// .delete(key)
+
+// Description: Map se kisi key-value pair ko remove karta hai.
+// Example: map.delete('name')
+// .clear()
+
+// Description: Map ke sare key-value pairs ko remove kar deta hai.
+// Example: map.clear()
+// .size
+
+// Description: Map mein total number of key-value pairs ko return karta hai.
+// Example: map.size — returns the size of the map.
+// .forEach(callback)
+
+// Description: Map ke har key-value pair ke liye ek callback function ko execute karta hai.
+// Example:
+// javascript
+
+// map.forEach((value, key) => {
+//   console.log(key, value);
+// });
+
+
+
+// HOC in js
+// Example: 1
+// function greeting(name, callback) {
+//     console.log("Hello, " + name);  // Greeting message print karega
+//     callback(); // Ye callback function ko call karega (sayGoodbye ko)
+//   }
+  
+//   function sayGoodbye() {
+//     console.log("Goodbye!"); // Goodbye message print karega
+//   }
+  
+//   greeting("Alice", sayGoodbye);
+  
+
+// Example 2:
+
+// function multiplyBy(x) {
+//     return function(y) {
+//       return x * y;
+//     };
+//   }
+  
+//   const multiplyBy2 = multiplyBy(2);
+//   console.log(multiplyBy2(5));
